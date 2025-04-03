@@ -10,7 +10,7 @@ pool: pool
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'dev_4103/pom.xml'
+    mavenPomFile: 'dev_4103/demo/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.23'
